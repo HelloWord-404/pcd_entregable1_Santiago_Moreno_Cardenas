@@ -120,139 +120,139 @@ El sistema permite:
 
 🚀 Naves
 
-Las naves poseen:
+- Las naves poseen:
 
-nombre
+- nombre
 
-catálogo de repuestos
+- catálogo de repuestos
 
-Tipos de naves implementadas:
+**Tipos de naves implementadas:
+**
+- Estación Espacial
 
-Estación Espacial
+- tripulación
 
-tripulación
+- pasaje
 
-pasaje
+- ubicación
 
-ubicación
+- Nave Estelar
 
-Nave Estelar
+- tripulación
 
-tripulación
+- pasaje
 
-pasaje
+- clase
 
-clase
+- Caza Estelar
 
-Caza Estelar
-
-dotación
+- dotación
 
 ⚔️ Unidades de combate
 
-Todas las unidades de combate poseen:
+**Todas las unidades de combate poseen:
+**
+- identificador de combate
 
-identificador de combate
+- clave cifrada para transmisión segura
 
-clave cifrada para transmisión segura
-
-Permiten simular comunicaciones seguras entre unidades imperiales.
+- Permiten simular comunicaciones seguras entre unidades imperiales.
 
 📦 Repuestos
 
 Cada repuesto contiene:
 
-nombre
+- nombre
 
-proveedor
+- proveedor
 
-cantidad disponible
+- cantidad disponible
 
-precio
+- precio
 
 Además incluye métodos para:
 
-añadir stock
+- añadir stock
 
-retirar stock
+- retirar stock
 
-calcular valor total del inventario
+- calcular valor total del inventario
 
 🏭 Almacenes
 
 Los almacenes gestionan el inventario de repuestos y contienen:
 
-nombre
+- nombre
 
-ubicación
+- ubicación
 
-catálogo de repuestos
+- catálogo de repuestos
 
 Permiten:
 
-añadir repuestos
+- añadir repuestos
 
-eliminar repuestos
+- eliminar repuestos
 
-buscar repuestos
+- buscar repuestos
 
-actualizar stock
+- actualizar stock
 
 🧠 Programación Orientada a Objetos
 
 El sistema utiliza varios conceptos de POO:
 
-Herencia
+- Herencia
 
-Clases abstractas
+- Clases abstractas
 
-Enumeraciones
+- Enumeraciones
 
-Encapsulación
+- Encapsulación
 
-Relaciones entre clases
+- Relaciones entre clases
 
 📊 Diagramas UML
 
 El proyecto incluye:
 
-Diagrama de clases
+- Diagrama de clases
 
-Diagrama de casos de uso
+- Diagrama de casos de uso
 
-Diagrama de secuencia
+- Diagrama de secuencia
 
 Los diagramas fueron desarrollados utilizando:
 
-UMLet
+- UMLet
 
 ⚙️ Tecnologías utilizadas
 
-Python 3
+- Python 3
 
 pytest para pruebas unitarias
 
-git para control de versiones
+- git para control de versiones
 
-GitHub para el repositorio
+- GitHub para el repositorio
 
-UMLet para diagramas UML
+- UMLet para diagramas UML
 
 🧪 Tests
 
 El proyecto incluye tests unitarios con pytest para validar:
 
-creación de objetos
+- creación de objetos
 
-gestión de repuestos
+- gestión de repuestos
 
-operaciones en almacenes
+- operaciones en almacenes
 
-control de errores
+- control de errores
 
 Ejecutar tests:
 
-pytest
+- pytest
 
 
 
