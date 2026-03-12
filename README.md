@@ -30,23 +30,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/HelloWord-404/pcd_entregable1_Santiago_Moreno_Cardenas/blob/main/README.md">
+    <img src="images/imperio.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">sistema informático MiImperio</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+  Proyecto sobre Gestiòn de un sistema galactico para la comunicaciòn y encapsulaciòn de todo aquello relacionado con la administraciòn de naves espaciales, unidades de combate, repuestos y/o almacenes que operan en una estaciòn espacial     <br />
+    <a href="https://github.com/HelloWord-404/pcd_entregable1_Santiago_Moreno_Cardenas"><strong>Explore the repository »</strong></a>
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/HelloWord-404/pcd_entregable1_Santiago_Moreno_Cardenas">View docs</a>
     &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/HelloWord-404/pcd_entregable1_Santiago_Moreno_Cardenas/blob/main/README.md">mas sobre...</a>
     &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/HelloWord-404/pcd_entregable1_Santiago_Moreno_Cardenas/blob/main/README.md">Feature</a>
   </p>
 </div>
 
