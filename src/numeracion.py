@@ -6,7 +6,7 @@ class ClaseNave(Enum):
     ECLIPSE = 2
     SOBERANO = 3
 
-class Numeracion(Enum):
+class Ubicacion(Enum):
     ENDOR = 1
     CUMULO_RAIMOS = 2
     NEBULOSA_KALIIDA = 3
