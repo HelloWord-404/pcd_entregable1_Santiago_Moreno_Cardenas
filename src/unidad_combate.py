@@ -13,12 +13,12 @@ class UnidadCombate(ABC):
         return self.__clave_cifrada
 
     def transmitir_mensaje(self, mensaje: str):
-        """Simula una transmisión cifrada"""
+        #Simula una transmisión cifrada
         print(f"[Unidad {self.__id_combate}] Transmitiendo mensaje cifrado: {mensaje}")
 
     @abstractmethod
     def mostrar_info(self):
-        """Cada unidad debe implementar su propia forma de mostrar información"""
+        #Cada unidad debe implementar su propia forma de mostrar información
         pass
 
     def __str__(self):
