@@ -24,7 +24,7 @@ class Almacen:
 
     def eliminar_repuesto(self, nombre: str):
         
-       # Eliminar un repuesto del catálogo.
+        """ Eliminar un repuesto del catálogo."""
         
         for repuesto in self.catalogo:
             if repuesto.nombre == nombre:
@@ -55,7 +55,7 @@ class Almacen:
         
         #Muestra todos los repuestos disponibles.
         
-        print(f"\n📦 Catálogo del almacén: {self.nombre}\n")
+        print(f"\n Catálogo del almacén: {self.nombre}\n")
 
         if not self.catalogo:
             print("No hay repuestos disponibles")

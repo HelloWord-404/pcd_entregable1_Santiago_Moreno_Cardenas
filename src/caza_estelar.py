@@ -11,7 +11,7 @@ class Caza_Estelar:
         print(self)
 
     def isPossible_Star_Attack(self, ubicacionAtaque: Ubicacion) -> bool:
-      if(self.__dotacion > 100 and ubicacionAtaque != Ubicacion.ENDOR):
+      if(self.__dotacion > 100 and ubicacionAtaque == Ubicacion.ENDOR):
         return True
       else:
         valor = random.choice([True, False])
@@ -29,5 +29,5 @@ class Caza_Estelar:
       
     
     def __str__(self):
-        return f" -> {self.estado_ataque} --> "
+        return f" --> DOTACION: {self.__dotacion} | ESTADO DE ATAQUE actual: {self.estado_ataque} <--"
 
