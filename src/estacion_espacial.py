@@ -1,10 +1,10 @@
-from ubicacion import Ubicacion
+from numeracion import Ubicacion
 
 class Estacion_espacial:
     def __init__(self, tripulacion: int, pasaje: int, ubicacion: Ubicacion):
         self.__tripulacion= tripulacion
         self.__pasaje= pasaje
-        self.__ubicacion= Ubicacion
+        self.__ubicacion= ubicacion
     
     def mostrar_info(self):
         print(self)

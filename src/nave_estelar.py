@@ -11,11 +11,11 @@ class Nave_Estelar:
         print(self)
 
     def capacidad_total(self) -> int:
-        """Devuelve el total de personas en la nave."""
+        #total de personas en la nave.
         return self.__tripulacion + self.__pasaje
 
     def cambiar_clase(self, nueva_clase: ClaseNave):
-        """Permite cambiar la clase de la nave."""
+        #poder cambiar la clase de la nave.
         self.__clase = nueva_clase
 
     def __str__(self):

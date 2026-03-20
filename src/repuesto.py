@@ -7,15 +7,17 @@ class Repuesto:
         self.precio = precio
 
     def get_cantidad(self) -> int:
-        """Devolver la cantidad actual en stock de este repuesto."""
+        #Devolver la cantidad actual en stock de este repuesto.
         return self.__cantidad
 
     def añadir_stock(self, cantidad: int):
-        """Añadir una cantidad al stock de este repuesto."""
+        #Añadir una cantidad al stock de este repuesto3
+        if cantidad <= 0:
+            raise ValueError("La cantidad debe ser mayor que cero")
         self.__cantidad += cantidad
 
     def retirar_stock(self, cantidad: int):
-        """Retirar una cantidad del stock de este repuesto."""
+        #Retirar una cantidad del stock de este repuesto
         if cantidad <= 0:
             raise ValueError("La cantidad debe ser mayor que cero")
 
@@ -25,7 +27,7 @@ class Repuesto:
         self.__cantidad -= cantidad
 
     def calcular_valor_total(self) -> float:
-        """Calcular el valor total del stock de este repuesto."""
+        #Calcular el valor total del stock de este repuesto
         return self.__cantidad * self.precio
 
     
